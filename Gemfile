@@ -8,11 +8,16 @@ gem 'rails', '3.2.13'
 gem 'pg'
 gem 'rabl'
 gem 'oj'
+gem 'has_scope'
+gem 'gon'
+gem 'js-routes'
 
 group :development, :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
   gem 'faker'
+
+  gem 'sqlite3' # for the convenience of the designer
 end
 
 # Gems used only for assets and not required
@@ -20,6 +25,11 @@ end
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
+  gem 'eco'	
+  gem "less"
+  gem 'less-rails'
+  gem 'therubyracer'
+  gem 'twitter-bootstrap-rails'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
@@ -28,6 +38,8 @@ group :assets do
 end
 
 gem 'jquery-rails'
+
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

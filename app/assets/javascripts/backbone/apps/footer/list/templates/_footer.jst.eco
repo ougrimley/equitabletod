@@ -1,0 +1,31 @@
+<div class="container-fluid">
+	<div id="footer">
+	    <div class="row">
+	      
+	      <div class="col-md-4">
+	      <div class="panel panel-default">
+	          <img src="http://www.mapc.org/sites/default/files/mapc_logo.png" />
+	      </div>
+	      </div>
+	      
+	      <div class="col-md-4">
+	      <div class="panel panel-default">
+	        <p><a href="http://www.mapc.org" target="_blank">Metropolitan Area Planning Council</a></p>
+	          <p>60 Temple Place</p>
+			  <p>Boston, MA 02111</p>
+			  <p>Phone: (617) 451-2770</p>
+			  <p>Fax: (617) 482-7185</p>
+			  </div>
+	      </div>  
+	      
+	      <div class="col-md-4">
+	      <div class="panel panel-default">
+	        <p>With the support of the <a href="http://www.northeastern.edu/dukakiscenter/" target="_blank">
+	          Dukakis Center for Urban and Regional Policy
+	        </a></p>
+	      </div>  
+	      </div>
+	        	      
+	    </div>
+	</div>
+</div>
